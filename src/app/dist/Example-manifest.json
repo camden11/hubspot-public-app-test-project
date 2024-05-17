@@ -1,0 +1,24 @@
+{
+  "entry": "Example.tsx",
+  "modules": {
+    "internal": [
+      {
+        "module": "Example.tsx",
+        "renderedExports": []
+      }
+    ],
+    "external": []
+  },
+  "package": {
+    "name": "hubspot-example-extension",
+    "version": "0.1.0",
+    "license": "MIT",
+    "dependencies": {
+      "@hubspot/ui-extensions": "latest",
+      "react": "^18.2.0"
+    },
+    "devDependencies": {
+      "typescript": "^5.3.3"
+    }
+  }
+}
